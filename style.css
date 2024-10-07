@@ -1,0 +1,399 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+.container1{
+    
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.562);
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+        url('./image\ copy.png'); 
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px ;
+}
+nav{
+    
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img {
+    width: 15%;
+    
+}
+
+.btn{
+    width: 30%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.btn button:first-child{
+    width: 50%;
+    padding: 4px 30px;
+    color: white;
+    background-color: transparent;
+    border:1px solid white;
+    
+}
+
+.btn button:last-child{
+    width: 25%;
+    padding: 5px 1px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.container1 h1{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 65px;
+    margin-block: 40px;
+}
+
+
+.container1 h3{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+   padding: 25px;
+}
+
+
+.container1 p{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 120%;
+    
+}
+
+.inputSection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 1%;
+    
+}
+
+.btn4{
+    width: 10%;
+    height: 40px;
+    color: white;
+    background-color: #C11119;
+    font-size: 15px;
+     border: none;
+}
+
+.btn3{
+    width: 25%;
+    height: 40px;
+    color: white;
+    background-color: #141210;
+    border: 1px solid white;
+    
+}
+
+ .hr{
+    border: 1px solid #D61431;
+ } 
+
+
+
+.containenr-part{
+    height: 500%;
+    width: 100%0;
+    background-color:  #000000;
+        
+}
+
+.containenr-part h4{
+    color: white;
+    font-size: 150%;
+    padding-left: 10%;
+    padding: 5%;
+    
+}
+
+
+.box-parent{
+    height:auto ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 50px;
+    
+}
+
+
+.box{
+    height: 270px;
+    width: 200px;
+    background-color: red;
+    border-radius: 15px;
+    
+}
+
+
+
+.box:nth-child(1){
+    background-image: url(AAAABeNW_c9U9xz-Et1ZyU6zq1A1X3Dpuw90kY4WTTX0QqT4Rob8rlDd4Mf17LnqNX6gM74q5aFjQYrm6Qh_Q_EKy8nIXrmKqcPcmdg0zLxXZgSdtu2nUMRa6PxDDGR8M7oGuD3ujQNmDWC9aCnW3THvp4e-LQv46PNAEJwsV1pFD7CQAoFEHu_eOUHvgH2XQxsXjb4QU-pjKFKRs7nRS5.webp);
+    background-position: center;
+    background-size: cover;
+}
+.box:nth-child(2){
+    background-image: url(./AAAABekOyOEc0IMYCBzL1U12H-gMP39eTC0zZ0CawiEZfsVVEVfuzAXMWo1_7HVifGiVAezM9MLKJ-zMYF5vU2NZj1GAFKpJhPsJ9wD8412kiexuLATsJwlbCipYevBS8u1H_C0GtTn9c_dBQCtGd1H7CsnPPEeeLBX_VOpjX3-MufmSG3wQycmQXMFQVYJT4Pz8SM98uF8rVn1Jhdfcmu.webp);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.box:nth-child(3){
+    background-image: url(AAAABQlhuLDSFXrtuLYjXJUva-J4u1j1MstHGwg5edWUYAaJQoRvUD9EYyEDvjP4rkJSVXa-qIeoO28-plwGJhGr8lG4jMypkQBXhllC_uu53LgEH6gI7GNxKLAgMe94KW8YkEBUvATzfJ5P-e5eJYiRVO2iXpShZDfZqC7dggO8lXcDD0gszeFGJHdc2ZAmWfrzzgQ5yK-UlqWLe2zMpw.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.box:nth-child(4){
+    background-image: url(AAAABekOyOEc0IMYCBzL1U12H-gMP39eTC0zZ0CawiEZfsVVEVfuzAXMWo1_7HVifGiVAezM9MLKJ-zMYF5vU2NZj1GAFKpJhPsJ9wD8412kiexuLATsJwlbCipYevBS8u1H_C0GtTn9c_dBQCtGd1H7CsnPPEeeLBX_VOpjX3-MufmSG3wQycmQXMFQVYJT4Pz8SM98uF8rVn1Jhdfcmu.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+.container2{
+ height: auto;
+ width: 100%;
+ background-color: #000000;
+
+}
+
+
+.container2 h4{
+    color:white;
+    font-size: 150%;
+    padding-left: 150px;
+}
+
+.boxer1{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+    padding-block: 30px;
+    
+}
+
+
+.card{
+  height: 350px;
+  width: 250px;
+  background-color:#1F1425;
+  border-radius: 25px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  padding-block: 15px;
+  gap: 25px;
+  padding-left: 15px;
+  
+}
+  
+
+
+  .boxer1 h3{
+    font-size: 25px;
+    color: white;
+    
+
+  }
+
+
+  .boxer1 p{
+    color: #BBBBC2;
+    font-size: 17px
+
+}
+
+.cardsection{
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.input-sec{
+    width: 80%;
+    height: auto;
+    color: wheat;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sec4{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #3F3F3F;
+}
+
+.last-section{
+    
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.last-section p{
+ display: flex;
+ align-items: center;
+ justify-content:center;
+ color: white;
+}
+
+
+.last-section h5{
+    color: #BBBBC2;
+    padding-left: 10%;
+    font-size: 15px;
+    padding-block: 35px;
+}
+.lastul{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+     
+    
+}
+
+.lastul ul li{
+   list-style: none;
+   line-height: 150%;
+   gap: 50px;
+}
+.button{
+    width: 10%;
+    height: 25px;
+    background-color: #0F0F0F;
+    color: white;
+    margin-left: 70px;
+    margin-block: 25px;
+    border: 1px solid white;
+}
+
+
+.h55{
+    color: white;
+}
+
+@media (max-width:480px) {
+    .container1{
+        width: 100%;
+        height: auto;
+    }
+    nav{
+        width: 100%;
+        
+
+    }
+    nav img{
+        width: 30%;
+    }
+    .btn{
+        width: 50%;
+    }
+    .container1 h1{
+        font-size: 3em;
+    }
+
+
+    .container1 p{
+
+        font-size: 95%;
+    }
+
+       .inputSection{
+        width: 120%;
+        gap: 25px;}
+
+
+        .btn4{
+            width: 16%
+            
+        }
+
+        .box-parent{
+            
+            flex-direction: column;
+            padding-left: 25%;
+
+        }
+
+        
+         .container2 h4{
+         /* flex-direction: column; */
+        font-size: 25px;
+        }
+
+
+        .boxer1{
+         flex-direction: column;
+         padding-left: 25%;
+        }
+
+         .lastul{
+        flex-direction: column;
+        row-gap: 15px;
+        align-items: center;
+         } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
